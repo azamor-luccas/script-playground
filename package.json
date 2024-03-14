@@ -1,0 +1,29 @@
+{
+  "name": "script-playground",
+  "version": "0.0.1",
+  "description": "Your versatile development tool, inspired by Rails Console. Experiment, debug, and explore code seamlessly",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azamor-luccas/script-playground.git"
+  },
+  "keywords": [
+    "console",
+    "repl",
+    "debug",
+    "inspect",
+    "code",
+    "runner",
+    "test",
+    "script"
+  ],
+  "author": "Luccas Azamor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azamor-luccas/script-playground/issues"
+  },
+  "homepage": "https://github.com/azamor-luccas/script-playground#readme"
+}
