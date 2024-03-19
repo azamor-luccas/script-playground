@@ -2,7 +2,7 @@ import "reflect-metadata";
 import { DataSource } from "typeorm";
 import { Print } from "../repl/print";
 
-export const initializeAppDataSource = async (dataSource: DataSource) => {
+export const initializeAppDataSource = async (dataSource?: DataSource) => {
   if (!dataSource) {
     Print.noDataSourceProvided();
     return;

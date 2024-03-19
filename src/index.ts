@@ -10,7 +10,7 @@ async function main() {
   const config: Config = await loadConfigFile();
   const importsHelper: Imports = new Imports(config.env);
 
-  require("dotenv").config({ path: config.env.ENV_PATH });
+  require("dotenv").config({ path: config?.env?.ENV_PATH });
 
   const [dataSource, dependencies] = await Promise.all([
     initializeAppDataSource(config?.datasource),

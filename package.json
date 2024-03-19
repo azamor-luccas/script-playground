@@ -1,15 +1,16 @@
 {
   "name": "script-playground",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Your versatile development tool, inspired by Rails Console. Experiment, debug, and explore code seamlessly",
   "main": "src/index.ts",
+  "type": "module",
   "scripts": {
     "start": "ts-node src/index.ts",
     "dev": "node --inspect -r ts-node/register src/index.ts",
     "typeorm": "typeorm-ts-node-commonjs"
   },
   "bin": {
-    "script-playground": "src/index.cjs"
+    "script-playground": "src/index.js"
   },
   "repository": {
     "type": "git",
