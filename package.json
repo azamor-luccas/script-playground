@@ -3,22 +3,13 @@
   "version": "0.0.2",
   "description": "Your versatile development tool, inspired by Rails Console. Experiment, debug, and explore code seamlessly",
   "main": "src/index.ts",
-  "type": "module",
   "scripts": {
     "start": "ts-node src/index.ts",
     "dev": "node --inspect -r ts-node/register src/index.ts",
     "typeorm": "typeorm-ts-node-commonjs"
   },
   "bin": {
-    "script-playground": "src/index.js"
-  },
-  "exports": {
-    ".": "./src/index.ts",
-    "./config": {
-      "types": "./src/index.ts",
-      "require": "./src/index.ts",
-      "default": "./src/index.ts"
-    }
+    "script-playground": "src/index.cjs"
   },
   "repository": {
     "type": "git",
