@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Your versatile development tool, inspired by Rails Console. Experiment, debug, and explore code seamlessly",
   "main": "src/index.ts",
+  "type": "module",
   "scripts": {
     "start": "ts-node src/index.ts",
     "dev": "node --inspect -r ts-node/register src/index.ts",
